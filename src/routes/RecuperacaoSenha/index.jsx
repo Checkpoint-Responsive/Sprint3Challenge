@@ -1,6 +1,7 @@
 import './RecuperacaoSenha.css';
 import { Link } from 'react-router-dom'
-
+import perfil from '../img/perfil.png'
+import sair from '../img/sair.png'
 
 
 export default function RecuperacaoSenha() {
@@ -11,7 +12,7 @@ export default function RecuperacaoSenha() {
 
         <div className="head">
             <img src="#" alt="Logo da porto"/>
-            <Link to="/Perfil"> <img src="#" alt="foto perfil"/> </Link>
+            <Link to="/Perfil"> <img src={perfil} alt="foto perfil"/> </Link>
         </div>
 
         <div>
@@ -29,7 +30,7 @@ export default function RecuperacaoSenha() {
     </main>
 
     <footer className="footer">
-        <Link to="/Login">Sair <img src="#" alt="Sair"/> </Link>
+        <Link to="/Login">Sair <img src={sair} alt="Sair"/> </Link>
         <p><Link to="/Login">Sair </Link></p>
     </footer>
     </>
