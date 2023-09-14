@@ -1,6 +1,6 @@
 import './Home.css';
 import { Link } from 'react-router-dom';
-import {logoporto} from '../../img/portoSeguro';
+import { logoporto } from '../img/portoSeguro.png';
 
 export default function Home() {
     return (

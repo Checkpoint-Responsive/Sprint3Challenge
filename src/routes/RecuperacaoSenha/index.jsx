@@ -1,8 +1,8 @@
-import './recuperacao_senha.css';
+import './RecuperacaoSenha.css';
 import { Link } from 'react-router-dom'
-import {perfil} from '../../img/perfil.png';
-import {logoporto} from '../../img/portoSeguro.png';
-import {sair} from '../../img/sair.png';
+import { perfil } from '../img/perfil.png';
+import { logoporto } from '../img/portoSeguro.png';
+import { sair } from '../img/sair.png';
 
 
 export default function RecuperacaoSenha() {
@@ -35,4 +35,4 @@ export default function RecuperacaoSenha() {
         <p><Link to="/Login">Sair </Link></p>
     </footer>
     </>
-  )};
+  )}

@@ -1,9 +1,9 @@
 import './Chatbot.css';
 import { Link } from 'react-router-dom'
-import {portinho} from '../../img/portinho';
-import {fundo} from '../../img/fundoPortinho';
-import {sair} from '../../img/sair';
-import {microfone} from '../../img/microfone';
+import { portinho } from '../img/portinho.png';
+import { fundo } from '../img/fundoPortinho.png';
+import { sair } from '../img/sair.png';
+import { microfone } from '../img/microfone.png';
 
 export default function Chatbot() {
     return (
@@ -33,7 +33,7 @@ export default function Chatbot() {
             <footer className="footer">
 
                 <div className="divInput">
-                    <input type="text"  class="input"  name="txtInput" id="idInput" placeholder="Digite sua mensagem" />
+                    <input type="text"  className="Input"  name="txtInput" id="idInput" placeholder="Digite sua mensagem" />
                 </div>
 
                 <div className="box">

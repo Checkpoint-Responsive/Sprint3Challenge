@@ -1,7 +1,7 @@
 import './login.css';
 import { Link } from 'react-router-dom'
-import {perfil} from '../../img/perfil.png';
-import {logoporto} from '../../img/portoSeguro.png';
+import { perfil } from '../img/perfil.png';
+import { logoporto } from '../img/portoSeguro.png';
 
 export default function Login() {
   return (
@@ -14,14 +14,14 @@ export default function Login() {
             <div>
                 <form action="#">
                     <div className="divInput">
-                        <input type="text"  class="input"  name="txtUserName" id="idUserName" placeholder="UserName" />
+                        <input type="text"  className="input"  name="txtUserName" id="idUserName" placeholder="UserName" />
                     </div>
                     <div className="divInput">
-                        <input type="password"  class="input"  name="txtpassword" id="idpassword" placeholder="Senha" />
+                        <input type="password"  className="input"  name="txtpassword" id="idpassword" placeholder="Senha" />
                         </div>
         
                         <div className="btn">
-                        <button type="submit" class="btnEntrar">Entrar</button>
+                        <button type="submit" className="btnEntrar">Entrar</button>
                         </div>
                         
                         <div className="pLinks">

@@ -1,7 +1,7 @@
-import './cadastro_pessoa.css';
+import './cadastroPessoa.css';
 import { Link } from 'react-router-dom'
-import {camera} from '../../img/camera';
-import {sair} from '../../img/sair';
+import { camera } from '../img/camera.png';
+import { sair } from '../img/sair.png';
 
 
 export default function CadastroPessoa() {

@@ -1,9 +1,9 @@
 import './Perfil.css';
 
 import { Link } from 'react-router-dom'
-import {barra} from '../../img/barraStatus.png';
-import {perfil} from '../../img/perfil.png';
-import {sair} from '../../img/sair.png';
+import { barra } from '../img/barraStatus.png';
+import { perfil } from '../img/perfil.png';
+import { sair } from '../img/sair.png';
 
 
 export default function Perfil() {
