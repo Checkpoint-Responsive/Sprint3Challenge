@@ -1,8 +1,5 @@
 import './Chatbot.css';
 import { Link } from 'react-router-dom'
-import { portinho } from '../img/portinho.png';
-import { fundo } from '../img/fundoPortinho.png';
-import { sair } from '../img/sair.png';
 
 export default function Chatbot() {
     return (
@@ -11,10 +8,10 @@ export default function Chatbot() {
                 <h1>Portinho</h1>
                 <p>Assistente Virtual</p>
 
-                <img src={ portinho } alt="Portinho" />
-                <img src={ fundo } alt="Fundo" />
+                <img src="#" alt="Portinho" />
+                <img src="#" alt="Fundo" />
                 <div>
-                <Link to="/Home"> <img src={sair} alt="Sair"/> </Link>
+                <Link to="/Home"> <img src="#" alt="Sair"/> </Link>
                 </div>
             </header>
 

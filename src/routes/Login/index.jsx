@@ -1,14 +1,12 @@
 import './login.css';
 import { Link } from 'react-router-dom'
-import { perfil } from '../img/perfil.png';
-import { logoporto } from '../img/portoSeguro.png';
 
 export default function Login() {
   return (
     <>
         <main className="container">
             <div className="head">
-            <Link to="/Perfil"> <img src={ perfil } alt="foto perfil"/> </Link>
+            <Link to="/Perfil"> <img src="#" alt="foto perfil"/> </Link>
             </div>
         
             <div>
@@ -37,7 +35,7 @@ export default function Login() {
 
         <footer className="footer">
 
-            <img src={ logoporto } alt="logo porto seguro"/>
+            <img src="#" alt="logo porto seguro"/>
         </footer>
 
     </>

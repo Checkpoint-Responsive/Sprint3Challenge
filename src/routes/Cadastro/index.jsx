@@ -1,6 +1,6 @@
 import './cadastro.css'
 import { Link } from 'react-router-dom'
-import { sair } from '../img/sair.png';
+
 
 export default function Cadastro(){
 
@@ -37,7 +37,7 @@ export default function Cadastro(){
                 </section>
             </main>
             <footer className="footer">
-                <Link to="/Home"> <img src={sair} alt="Sair"/> </Link>
+                <Link to="/Home"> <img src="#" alt="Sair"/> </Link>
             </footer>
         </>
         )

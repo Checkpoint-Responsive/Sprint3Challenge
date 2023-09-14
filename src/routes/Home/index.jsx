@@ -1,6 +1,6 @@
 import './Home.css';
 import { Link } from 'react-router-dom';
-import { logoporto } from '../img/portoSeguro.png';
+
 
 export default function Home() {
     return (
@@ -8,7 +8,7 @@ export default function Home() {
             <header>
             
                 <div className = "LogoPorto">
-                <img src={ logoporto } alt="Logo da porto"/>
+                <img src="#" alt="Logo da porto"/>
                 </div>
             </header>
 
