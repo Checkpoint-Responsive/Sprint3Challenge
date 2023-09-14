@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import microfone from '../img/microfone.png'
 import portinho from '../img/portinho.png'
 import sair from '../img/sair.png'
+import fundoPortinho from '../img/fundoPortinho.png';
 
 
 export default function Chatbot() {
@@ -13,7 +14,7 @@ export default function Chatbot() {
                 <p>Assistente Virtual</p>
 
                 <img src={portinho} alt="Portinho" />
-                <img src="#" alt="Fundo" />
+                <img src={fundoPortinho} alt="Fundo" />
                 <div>
                 <Link to="/Home"> <img src={sair} alt="Sair"/> </Link>
                 </div>

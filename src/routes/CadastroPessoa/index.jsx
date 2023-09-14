@@ -59,7 +59,7 @@ export default function CadastroPessoa() {
                     <img src={perfil} alt="Perfil" />
 
                     <div className="box">
-                    <p>Tire ua foto</p>
+                    <p>Tire sua foto</p>
                     <button className="btnCamera"><img src={camera} alt="" /></button>
                     </div>
                     
