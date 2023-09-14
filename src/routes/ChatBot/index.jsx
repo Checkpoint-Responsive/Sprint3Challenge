@@ -1,5 +1,9 @@
 import './Chatbot.css';
 import { Link } from 'react-router-dom'
+import microfone from '../img/microfone.png'
+import portinho from '../img/portinho.png'
+import sair from '../img/sair.png'
+
 
 export default function Chatbot() {
     return (
@@ -8,10 +12,10 @@ export default function Chatbot() {
                 <h1>Portinho</h1>
                 <p>Assistente Virtual</p>
 
-                <img src="#" alt="Portinho" />
+                <img src={portinho} alt="Portinho" />
                 <img src="#" alt="Fundo" />
                 <div>
-                <Link to="/Home"> <img src="#" alt="Sair"/> </Link>
+                <Link to="/Home"> <img src={sair} alt="Sair"/> </Link>
                 </div>
             </header>
 
@@ -33,7 +37,7 @@ export default function Chatbot() {
                 </div>
 
                 <div className="box">
-                    <button className="btnMicrofone"><img src="#" alt="" /></button>
+                    <button className="btnMicrofone"><img src={microfone} alt="" /></button>
                 </div>
             </footer>
 
