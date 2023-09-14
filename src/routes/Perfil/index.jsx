@@ -1,8 +1,8 @@
 import './Perfil.css';
 
 import { Link } from 'react-router-dom'
-
-
+import perfil from '../img/perfil.png'
+import sair from '../img/sair.png'
 
 export default function Perfil() {
     return (
@@ -15,7 +15,7 @@ export default function Perfil() {
                 <h7>Ativo</h7>  
 
                 <div className="perfil">
-                    <Link to="/Perfil"> <img src="#" alt="foto perfil"/> </Link>
+                    <Link to="/Perfil"> <img src={perfil} alt="foto perfil"/> </Link>
                 </div>
             </header>
 
@@ -41,7 +41,7 @@ export default function Perfil() {
             </main>
 
             <footer className="footer">
-                <Link to="/Home"> <img src="#" alt="Sair"/> </Link>
+                <Link to="/Home"> <img src={sair} alt="Sair"/> </Link>
             </footer>
         </>
     )

@@ -1,6 +1,7 @@
 import './cadastro.css'
 import { Link } from 'react-router-dom'
-
+import imgcamera from '../img/camera.png';
+import imgsair from '../img/sair.png';
 
 export default function Cadastro(){
 
@@ -17,19 +18,19 @@ export default function Cadastro(){
                 <section className="cadastro">
                         <div className="box">
                             <p>Tire uma foto da bicicleta</p>
-                            <button className="btnCamera"><img src="./img/camera.png" alt="" /></button>
+                            <button className="btnCamera"><img src={imgcamera} alt="" /></button>
                         </div>
                         <div className="box">
                             <p>Tire uma foto do guidão</p>
-                            <button className="btnCamera"><img src="#" alt="" /></button>
+                            <button className="btnCamera"><img src={imgcamera} alt="" /></button>
                             </div>
                         <div className="box">
                             <p>Tire uma foto do banco</p>
-                            <button className="btnCamera"><img src="#" alt="" /></button>
+                            <button className="btnCamera"><img src={imgcamera} alt="" /></button>
                             </div>
                         <div className="box">
                             <p>Tire uma foto das rodas</p>
-                            <button className="btnCamera"><img src="#" alt="" /></button>
+                            <button className="btnCamera"><img src={imgcamera} alt="" /></button>
                         </div>
                         <div className="box">
                         <button type = "submit" className="btnEnviar">Enviar</button>
@@ -37,7 +38,7 @@ export default function Cadastro(){
                 </section>
             </main>
             <footer className="footer">
-                <Link to="/Home"> <img src="#" alt="Sair"/> </Link>
+                <Link to="/Perfil"> <img src={imgsair} alt="Sair"/> </Link>
             </footer>
         </>
         )
