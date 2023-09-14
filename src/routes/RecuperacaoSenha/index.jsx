@@ -1,8 +1,8 @@
-import './recuperacao_senha.css';
+import './RecuperacaoSenha.css';
 import { Link } from 'react-router-dom'
-import {perfil} from '../../img/perfil.png';
-import {logoporto} from '../../img/portoSeguro.png';
-import {sair} from '../../img/sair.png';
+import perfil from '../img/perfil.png'
+import sair from '../img/sair.png'
+import logo from '../img/portoSeguro.png'
 
 
 export default function RecuperacaoSenha() {
@@ -12,7 +12,7 @@ export default function RecuperacaoSenha() {
     <main className="container">
 
         <div className="head">
-            <img src={logoporto} alt="Logo da porto"/>
+            <img src={logo} alt="Logo da porto"/>
             <Link to="/Perfil"> <img src={perfil} alt="foto perfil"/> </Link>
         </div>
 
@@ -35,4 +35,4 @@ export default function RecuperacaoSenha() {
         <p><Link to="/Login">Sair </Link></p>
     </footer>
     </>
-  )};
+  )}

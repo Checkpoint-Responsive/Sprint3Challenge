@@ -1,22 +1,18 @@
 import './Perfil.css';
 
 import { Link } from 'react-router-dom'
-import {barra} from '../../img/barraStatus.png';
-import {perfil} from '../../img/perfil.png';
-import {sair} from '../../img/sair.png';
-
+import perfil from '../img/perfil.png'
+import sair from '../img/sair.png'
 
 export default function Perfil() {
     return (
         <>
-            <header>
+            <header className='Header'>
                 <h1>Olá Alexandre!</h1>
 
                 <p>Status do seguro</p>
 
-                <div className="img">
-                    <img src={barra} alt="Ativo" />
-                </div>
+                <h7>Ativo</h7>  
 
                 <div className="perfil">
                     <Link to="/Perfil"> <img src={perfil} alt="foto perfil"/> </Link>
@@ -25,7 +21,7 @@ export default function Perfil() {
 
             <main>
 
-                <section>
+                <section className='secao'>
 
                 <div className="Titulo">
                     <h1>Ajuda?</h1>
