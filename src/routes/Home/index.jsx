@@ -1,5 +1,7 @@
 import './Home.css';
 import { Link } from 'react-router-dom';
+import imgBike from '../img/bicicleta.png';
+import imgLogoPorto from '../img/portoSeguro.png';
 
 
 export default function Home() {
@@ -8,7 +10,7 @@ export default function Home() {
             <header>
             
                 <div className = "LogoPorto">
-                <img src="#" alt="Logo da porto"/>
+                <img src={imgLogoPorto} alt="Logo da porto"/>
                 </div>
             </header>
 
@@ -21,7 +23,7 @@ export default function Home() {
                 </div>
 
                 <div className="img">
-                    <img src="#" alt="Bicicleta"/>
+                    <img src={imgBike} alt="Bicicleta"/>
                 </div>
 
                 <div className="texto">

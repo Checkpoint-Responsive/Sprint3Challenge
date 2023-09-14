@@ -7,14 +7,12 @@ import { Link } from 'react-router-dom'
 export default function Perfil() {
     return (
         <>
-            <header>
+            <header className='Header'>
                 <h1>Olá Alexandre!</h1>
 
                 <p>Status do seguro</p>
 
-                <div className="img">
-                    <img src="#" alt="Ativo" />
-                </div>
+                <h7>Ativo</h7>  
 
                 <div className="perfil">
                     <Link to="/Perfil"> <img src="#" alt="foto perfil"/> </Link>
@@ -23,7 +21,7 @@ export default function Perfil() {
 
             <main>
 
-                <section>
+                <section className='secao'>
 
                 <div className="Titulo">
                     <h1>Ajuda?</h1>
