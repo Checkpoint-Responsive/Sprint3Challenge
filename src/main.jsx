@@ -1,6 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import Cadastro from './routes/Cadastro/index.jsx'
 import CadastroPessoa from './routes/CadastroPessoa/index.jsx'
@@ -10,24 +9,50 @@ import Home from './routes/Home/index.jsx'
 import Login from './routes/Login/index.jsx'
 import Perfil from './routes/Perfil/index.jsx'
 import RecuperacaoSenha from './routes/RecuperacaoSenha/index.jsx'
+import { createBrowserRouter } from 'react-router-dom'
+import { RouterProvider } from 'react-router-dom'
 import './index.css'
 
-const routing = (
-  <Router>
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/Home" element={<Home />} />
-      <Route path="/Cadastro" element={<Cadastro />} />
-      <Route path="/CadastroPessoa" element={<CadastroPessoa />} />
-      <Route path="/ChatBot" element={<ChatBot />} />
-      <Route path="/Login" element={<Login />} />
-      <Route path="/Perfil" element={<Perfil />} />
-      <Route path="/RecuperacaoSenha" element={<RecuperacaoSenha />} />
-      <Route path="*" element={<Error />} />
-    </Routes>
-  </Router>
-)
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+    errorElement: <Error/>,
+    children:[
+      {
+        path: "/",
+        element: <Home/>
+      },
+      {
+        path: "/login",
+        element: <Login/>
+      },
+      {
+        path: "/Cadastro",
+        element: <Cadastro/>
+      },
+      {
+        path: "/CadastroPessoa",
+        element: <CadastroPessoa/>
+      },
+      {
+        path: "/DadosBicicleta",
+        element: <ChatBot/>
+      },
+      {
+        path: "/Perfil",
+        element: <Perfil/>
+      },
+      {
+        path: "/RecuperacaoSenha",
+        element: <RecuperacaoSenha/>
+      }
+    ]
+  }
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>{routing}</React.StrictMode>
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>,
 )
