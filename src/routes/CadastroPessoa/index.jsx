@@ -1,7 +1,6 @@
-import './cadastro_pessoa.css';
+import './cadastroPessoa.css';
 import { Link } from 'react-router-dom'
-import {camera} from '../../img/camera';
-import {sair} from '../../img/sair';
+
 
 
 export default function CadastroPessoa() {
@@ -56,18 +55,18 @@ export default function CadastroPessoa() {
                         <input type="password" id="conf_senha" className="custom-input" placeholder="Confirme sua Senha" />
                     </div>
 
-                    <img src="./img/pefil.png" alt="Perfil" />
+                    <img src="#" alt="Perfil" />
 
                     <div className="box">
                     <p>Tire ua foto</p>
-                    <button className="btnCamera"><img src={camera} alt="" /></button>
+                    <button className="btnCamera"><img src="#" alt="" /></button>
                     </div>
                     
                 </section>
             </main>
             
             <footer className="footer">
-                <Link to="/Home"> <img src={sair} alt="Sair"/> </Link>
+                <Link to="/Home"> <img src="#" alt="Sair"/> </Link>
             </footer>
 
         </>

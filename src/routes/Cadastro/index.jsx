@@ -1,7 +1,6 @@
 import './cadastro.css'
 import { Link } from 'react-router-dom'
-import camera from '../../img/camera.png'
-import {sair} from '../../img/sair';
+
 
 export default function Cadastro(){
 
@@ -18,19 +17,19 @@ export default function Cadastro(){
                 <section className="cadastro">
                         <div className="box">
                             <p>Tire uma foto da bicicleta</p>
-                            <button className="btnCamera"><img src={camera} alt="" /></button>
+                            <button className="btnCamera"><img src="./img/camera.png" alt="" /></button>
                         </div>
                         <div className="box">
                             <p>Tire uma foto do guidão</p>
-                            <button className="btnCamera"><img src={camera} alt="" /></button>
+                            <button className="btnCamera"><img src="#" alt="" /></button>
                             </div>
                         <div className="box">
                             <p>Tire uma foto do banco</p>
-                            <button className="btnCamera"><img src={camera} alt="" /></button>
+                            <button className="btnCamera"><img src="#" alt="" /></button>
                             </div>
                         <div className="box">
                             <p>Tire uma foto das rodas</p>
-                            <button className="btnCamera"><img src={camera} alt="" /></button>
+                            <button className="btnCamera"><img src="#" alt="" /></button>
                         </div>
                         <div className="box">
                         <button type = "submit" className="btnEnviar">Enviar</button>
@@ -38,7 +37,7 @@ export default function Cadastro(){
                 </section>
             </main>
             <footer className="footer">
-                <Link to="/Home"> <img src={sair} alt="Sair"/> </Link>
+                <Link to="/Home"> <img src="#" alt="Sair"/> </Link>
             </footer>
         </>
         )
