@@ -17,7 +17,7 @@ export default function Cadastro(){
                 <section className="cadastro">
                         <div className="box">
                             <p>Tire uma foto da bicicleta</p>
-                            <button className="btnCamera"><img src="#" alt="" /></button>
+                            <button className="btnCamera"><img src="./img/camera.png" alt="" /></button>
                         </div>
                         <div className="box">
                             <p>Tire uma foto do guidão</p>

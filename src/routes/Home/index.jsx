@@ -21,7 +21,7 @@ export default function Home() {
                 </div>
 
                 <div className="img">
-                    <img src="./img/bicicleta.png" alt=""/>
+                    <img src="#" alt="Bicicleta"/>
                 </div>
 
                 <div className="texto">

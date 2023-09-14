@@ -1,0 +1,59 @@
+.LogoPorto{
+    width: 200px;
+    height: 50px;
+    
+}
+.Titulo{
+    color: #000;
+    font-family: Caudex;
+    font-size: 1rem;
+    margin: auto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.img{
+    width: 150px;
+    margin: auto;
+    height: 150px;
+}
+.texto{
+    color: #000;
+    text-align: center;
+    font-family: Alice;
+    margin: auto;
+    width: 80%;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn{
+    margin: auto;
+    max-width: 30vw;
+    height: 10vh;
+    justify-content: center;
+    display: flex;
+}
+.btn button{
+    border-radius: 30px;
+    margin: auto;
+    padding: 40px 200px ;
+    ;
+}
+
+.btnCotacao{
+    font-size: 1rem;
+}
+
+.footer{
+    color: #F4F1F1;
+    font-family: Caudex;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10%;
+}
+
+
