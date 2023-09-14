@@ -8,10 +8,12 @@ import {sair} from '../../img/sair.png';
 export default function RecuperacaoSenha() {
   return (
     <>
-<main className="container">
+
+    <main className="container">
+
         <div className="head">
             <img src={logoporto} alt="Logo da porto"/>
-            <Link to="/pagina-perfil"> <img src={perfil} alt="foto perfil"/> </Link>
+            <Link to="/Perfil"> <img src={perfil} alt="foto perfil"/> </Link>
         </div>
 
         <div>
@@ -27,9 +29,10 @@ export default function RecuperacaoSenha() {
         </div>
 
     </main>
+
     <footer className="footer">
-        <img src={sair} alt="Sair"/>
-        <p><Link to="/login">Sair </Link></p>
+        <Link to="/Login">Sair <img src={sair} alt="Sair"/> </Link>
+        <p><Link to="/Login">Sair </Link></p>
     </footer>
     </>
   )};
