@@ -15,7 +15,7 @@ export default function Perfil() {
                 <p>Status do seguro</p>
 
                 <div className="img">
-                    <img src={barra} alt="Ativo" />
+                    <img src={ barra } alt="Ativo" />
                 </div>
 
                 <div className="perfil">

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import { portinho } from '../img/portinho.png';
 import { fundo } from '../img/fundoPortinho.png';
 import { sair } from '../img/sair.png';
-import { microfone } from '../img/microfone.png';
 
 export default function Chatbot() {
     return (
@@ -12,8 +11,8 @@ export default function Chatbot() {
                 <h1>Portinho</h1>
                 <p>Assistente Virtual</p>
 
-                <img src={portinho} alt="Portinho" />
-                <img src={fundo} alt="Fundo" />
+                <img src={ portinho } alt="Portinho" />
+                <img src={ fundo } alt="Fundo" />
                 <div>
                 <Link to="/Home"> <img src={sair} alt="Sair"/> </Link>
                 </div>
@@ -37,7 +36,7 @@ export default function Chatbot() {
                 </div>
 
                 <div className="box">
-                    <button className="btnMicrofone"><img src={microfone} alt="" /></button>
+                    <button className="btnMicrofone"><img src="#" alt="" /></button>
                 </div>
             </footer>
 

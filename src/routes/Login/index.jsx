@@ -8,7 +8,7 @@ export default function Login() {
     <>
         <main className="container">
             <div className="head">
-            <Link to="/Perfil"> <img src={perfil} alt="foto perfil"/> </Link>
+            <Link to="/Perfil"> <img src={ perfil } alt="foto perfil"/> </Link>
             </div>
         
             <div>
@@ -37,7 +37,7 @@ export default function Login() {
 
         <footer className="footer">
 
-            <img src={logoporto} alt="logo porto seguro"/>
+            <img src={ logoporto } alt="logo porto seguro"/>
         </footer>
 
     </>

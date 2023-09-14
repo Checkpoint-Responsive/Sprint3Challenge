@@ -12,7 +12,7 @@ export default function RecuperacaoSenha() {
     <main className="container">
 
         <div className="head">
-            <img src={logoporto} alt="Logo da porto"/>
+            <img src={ logoporto } alt="Logo da porto"/>
             <Link to="/Perfil"> <img src={perfil} alt="foto perfil"/> </Link>
         </div>
 

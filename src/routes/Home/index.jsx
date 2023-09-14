@@ -8,7 +8,7 @@ export default function Home() {
             <header>
             
                 <div className = "LogoPorto">
-                <img src={logoporto} alt="Logo da porto"/>
+                <img src={ logoporto } alt="Logo da porto"/>
                 </div>
             </header>
 
