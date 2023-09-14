@@ -1,7 +1,10 @@
-import React from 'react';
 import './cadastro_pessoa.css';
+import { Link } from 'react-router-dom'
+import {camera} from '../../img/camera';
+import {sair} from '../../img/sair';
 
-export default function PaginaCadastro() {
+
+export default function CadastroPessoa() {
     return (
         <>
             <header>
@@ -60,13 +63,11 @@ export default function PaginaCadastro() {
                     <button className="btnCamera"><img src={camera} alt="" /></button>
                     </div>
                     
-                    <img src="./img/sair.png" alt="Sair" />
-
                 </section>
             </main>
             
             <footer className="footer">
-                <img src={sair} alt="Sair"/>
+                <Link to="/Home"> <img src={sair} alt="Sair"/> </Link>
             </footer>
 
         </>
