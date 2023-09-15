@@ -31,8 +31,7 @@ export default function RecuperacaoSenha() {
     </main>
 
     <footer className="footer">
-        <Link to="/Login">Sair <img src={sair} alt="Sair"/> </Link>
-        <p><Link to="/Login">Sair </Link></p>
+        <Link to="/Login" className='linkFooter'><img src={sair} alt="Sair"/>Sair  </Link>
     </footer>
     </>
   )}

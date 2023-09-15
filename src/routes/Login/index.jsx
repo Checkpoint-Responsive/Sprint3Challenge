@@ -1,4 +1,4 @@
-// import './Login.css';
+import './Login.css';
 import { Link } from 'react-router-dom'
 import perfil from '../img/perfil.png'
 import portoSeguro from '../img/portoSeguro.png'

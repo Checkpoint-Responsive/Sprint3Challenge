@@ -30,7 +30,6 @@
 }
 .btn{
     margin: auto;
-    max-width: 30vw;
     height: 10vh;
     justify-content: center;
     display: flex;
@@ -38,12 +37,25 @@
 .btn button{
     border-radius: 30px;
     margin: auto;
-    padding: 40px 200px ;
+    padding: 40px 50px ;
     ;
 }
 
 .btnCotacao{
-    font-size: 1rem;
+    background-color: white;
+      border-radius: 20px;
+      font-size: 20px;
+      border-style: none;
+      cursor: pointer;
+      padding: 10px;
+      color: black;
+      display: flex;
+     justify-content: center; 
+     & .linkCotacao{
+        color: black;
+        background-color: white;
+        text-decoration: none;
+     }
 }
 
 .footer{
@@ -54,6 +66,16 @@
     font-weight: 700;
     line-height: normal;
     margin-top: 10%;
+    text-decoration: none;
+    & p{
+        width: 100%;
+        padding: 10px;
+
+        & a{
+            text-decoration: none;
+            color: white;
+        }
+    }
 }
 
 
