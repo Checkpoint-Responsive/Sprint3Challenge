@@ -27,17 +27,21 @@ export default function Perfil() {
 
                 <section className='secao'>
 
-                    <div className="Titulo">
+                    <div className="titulo">
                         <h1>Ajuda?</h1>
                     </div>
 
                     <div className="opcoes">
-
-                    <p>Dados Pessoais</p>
-                    <p>Detalhes do seguro</p>
-                    <p>Contrato</p>
-                    <p>Termos de uso</p>  
-                        
+                        <p>Dados Pessoais</p>
+                    </div>
+                    <div className="opcoes">
+                        <p>Detalhes do seguro</p>
+                    </div>
+                    <div className="opcoes">
+                        <p>Contrato</p>
+                    </div>
+                    <div className="opcaoFinal">
+                        <p>Termos de uso</p>
                     </div>
 
                 </section>
