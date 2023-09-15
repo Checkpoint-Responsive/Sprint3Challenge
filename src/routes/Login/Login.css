@@ -9,7 +9,8 @@
 }
 
 .container{
-  min-height: calc(100vh - 60px);;
+  min-height: calc(100vh - 60px);
+  min-width: 97vw;
 }
 
 .head{
@@ -49,12 +50,23 @@
   & .btnEntrar{
       background-color: white;
       border-radius: 20px;
-      padding: 10px;
       font-size: 20px;
       width: 15%;
       border-style: none;
       cursor: pointer;
+      padding: 10px 50px;
+      color: black;
+      display: flex;
+     justify-content: center;
+
+     
   }
+  
+  & .linkLoginToPerfil{
+      color: black;
+      background-color: white;
+      text-decoration: none;
+    }
 }
 
 .pLinks{
@@ -80,5 +92,4 @@
   height: 100%;
   min-height: 40px;
   justify-content: center;
-  width: 100vw;
 }
