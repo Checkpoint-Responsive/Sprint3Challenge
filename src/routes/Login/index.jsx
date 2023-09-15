@@ -1,4 +1,4 @@
-import './login.css';
+// import './Login.css';
 import { Link } from 'react-router-dom'
 import perfil from '../img/perfil.png'
 import portoSeguro from '../img/portoSeguro.png'
@@ -22,7 +22,7 @@ export default function Login() {
                         </div>
         
                         <div className="btn">
-                        <button type="submit" className="btnEntrar">Entrar</button>
+                        <button type="submit" className="btnEntrar">< Link to = "/Perfil"  className='linkLoginToPerfil'>Entrar</Link></button>
                         </div>
                         
                         <div className="pLinks">
