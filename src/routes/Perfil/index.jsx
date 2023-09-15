@@ -2,17 +2,21 @@ import './Perfil.css';
 
 import { Link } from 'react-router-dom'
 import perfil from '../img/perfil.png'
-import sair from '../img/sair.png'
+import imgsair from '../img/sair.png'
 
 export default function Perfil() {
     return (
         <>
-            <header className='Header'>
-                <h1>Olá Alexandre!</h1>
+            <header className='header'>
+                <div className='conteudo'> 
+                    <h1>Olá Alexandre!</h1>
 
-                <p>Status do seguro</p>
+                    <div className='labelStatus'>
+                    <p>Status do seguro</p>
+                    </div>
 
-                <h7>Ativo</h7>  
+                    <div className='status'><h7 >Ativo</h7>  </div>
+                </div>
 
                 <div className="perfil">
                     <Link to="/Perfil"> <img src={perfil} alt="foto perfil"/> </Link>
@@ -23,25 +27,26 @@ export default function Perfil() {
 
                 <section className='secao'>
 
-                <div className="Titulo">
-                    <h1>Ajuda?</h1>
-                </div>
+                    <div className="Titulo">
+                        <h1>Ajuda?</h1>
+                    </div>
 
-                <div className="opcoes">
+                    <div className="opcoes">
 
-                  <p>Dados Pessoais</p>
-                  <p>Detalhes do seguro</p>
-                  <p>Contrato</p>
-                  <p>Termos de uso</p>  
-                    
-                </div>
+                    <p>Dados Pessoais</p>
+                    <p>Detalhes do seguro</p>
+                    <p>Contrato</p>
+                    <p>Termos de uso</p>  
+                        
+                    </div>
 
                 </section>
 
             </main>
 
             <footer className="footer">
-                <Link to="/Home"> <img src={sair} alt="Sair"/> </Link>
+                <img src={imgsair} alt="Sair"/>
+                <Link to="/" className='linkFooter'>Sair </Link>
             </footer>
         </>
     )

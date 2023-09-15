@@ -55,7 +55,7 @@ export default function CadastroPessoa() {
             </main>
             
             <footer className="footer">
-                <Link to="/Home" className='linkFooter'> <img src={sair} alt="Sair"/> Sair</Link>
+                <Link to="/" className='linkFooter'> <img src={sair} alt="Sair"/> Sair</Link>
             </footer>
 
         </main>

@@ -31,7 +31,7 @@ export default function Home() {
                 </div>
 
                 <div className="btn">
-                  <button type="submit" className="btnCotacao"> <Link to="/Chatbot">Faça uma cotação</Link> </button>
+                  <button type="submit" className="btnCotacao"> <Link to="/Chatbot" className='linkCotacao'>Faça uma cotação</Link> </button>
                 </div>
 
                 </section>
